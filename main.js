@@ -1,4 +1,4 @@
-function TocaSomPom(idElementoAudio){
+function TocaSom(idElementoAudio){
     document.querySelector(idElementoAudio).play();
 }
 
@@ -11,7 +11,7 @@ listaDeTeclas[0].onclick = TocaSom;
 let contador = 0;
 
 while(contador < listaDeTeclas.length){
-    listaDeTeclas[contador].onclick = TocaSomPom;
+    listaDeTeclas[contador].onclick = TocaSom;
     contador = contador + 1;
     console.log(contador);
 }
